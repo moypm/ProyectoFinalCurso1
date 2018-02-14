@@ -14,14 +14,18 @@
           <h3><strong>Fecha de Nacimiento: </strong>31/Mayo/1974</h3>
           <h3><strong>Lugar de Nacimiento: </strong>Puerto Vallarta, Jalisco</h3>
       </header>
+      <br>
+      <br>
       <navbar>
-          <a href="inicio.html">Inicio</a>
+          <a href="index.html">Inicio</a>
           |
-          <a href="eduacion.html">Educación</a>
+          <a href="educacion.html">Educación</a>
           |
           <a href="experiencia.html">Experiencia</a>
       </navbar>
-      <br><br><br>
+      <br>
+      <br>
+      <br>
       <h2>Educación</h2>
       <table  border="1", cellpadding="10", cellspacing="0">
           <thead>
@@ -32,10 +36,10 @@
           </thead>
           <tbody>
               <tr>
-                <td>1988</td>
-                <td>Secundaria Técnica #81</td>
-                <td>Puerto Vallarta, Jal.</td>
-                <td>Si</td>
+                  <td>1988</td>
+                  <td>Secundaria Técnica #81</td>
+                  <td>Puerto Vallarta, Jal.</td>
+                  <td>Si</td>
               </tr>
               <tr>
                   <td>1991</td>
@@ -57,5 +61,50 @@
               </tr>
           </tbody>
       </table>
+      <br>
+      <br>
+      <h2>Agregar Estudios</h2>
+      <form action="">
+          <label for="anio"><strong>Año:</strong> </label>
+          <select name="anio">
+              <option value="anio">2018</option>
+              <option value="anio">2017</option>
+              <option value="anio">2016</option>
+              <option value="anio">2015</option>
+              <option value="anio">2014</option>
+              <option value="anio">2013</option>
+              <option value="anio">2012</option>
+              <option value="anio">2011</option>
+          </select>
+          <br>
+          <br>
+          <label for="instituto"><strong>Instituto:</strong> </label>
+          <input type="text" name="instituto" placeholder="Ej: Universidad NextU" required>
+          <br>
+          <br>
+          <label for="lugar"><strong>Lugar:</strong> </label>
+          <textarea name="lugar" rows="2" cols="52"></textarea>
+          <br>
+          <br>
+          <label for="culmina"><strong>¿Culminó?</strong> </label>
+          <input type="radio" name="culmina">Si
+          <input type="radio" name="culmina">No
+          <br>
+          <br>
+          <input type="submit" value="Enviar">
+      </form>
+      <footer>
+          <p>
+              <a href="mailto:moypm@hotmail.com?subject=Informacion">
+                  <img src="images/mail.png" alt="Correo" width="30" height="30">
+              </a>
+              moypm@hotmail.com
+              <img src="images/telefono.png" alt="telefono" width="30" height="30"></img>
+              (322) 1210657
+              <img src="images/whatsapp.png" alt="Whatsapp" width="30" height="30"></img>
+              3221210657 <br><br>
+              <em>Paseo de las Aguilas #007, Col. Avendras, Puerto Vallarta, Jalisco</em>
+          </p>
+      </footer>
   </body>
 </html>
