@@ -1,0 +1,20 @@
+<svg width="580" height="280" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="282" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <polyline stroke-linecap="round" id="svg_4" points="226.5,100.5 226.5,100.5 " stroke-width="1.5" stroke="#444444" fill="none"/>
+  <path stroke="#666666" d="m273.644262,78.5c-1.367731,0 0,0 2.735462,1c10.941847,4 23.174039,7.147736 30.090079,9c12.183732,3.263062 16.384387,3.095856 28.722348,5c6.823711,1.053131 16.493662,2.139191 31.45781,1c26.413718,-2.010803 39.910502,-6.452698 49.238311,-9c21.208844,-5.79187 41.031926,-17 72.489735,-32l25.986886,-14l15.045039,-9l30.090079,-23" id="svg_6" stroke-width="1.5" fill="#999999"/>
+  <path stroke="#666666" d="m18.499998,131.5c0,0 3.12731,-0.248444 65.668293,-36c65.119584,-37.225616 146.555832,-93.432755 148.682928,-92c4.756318,3.203735 22.302439,31 28.497561,47l4.956098,14l3.717073,9l2.478049,5" id="svg_8" stroke-width="1.5" fill="#BBBBBB"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="100" id="svg_10" y="234.5" x="223.5" stroke-opacity="null" stroke-width="0" stroke="#444444" fill="#666666">M</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="100" id="svg_11" y="190.5" x="282.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#444444" fill="#666666">P</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="100" id="svg_12" y="237.5" x="310.5" stroke-opacity="null" stroke-width="0" stroke="#444444" fill="#666666">oy</text>
+  <line stroke="#666666" stroke-linecap="null" stroke-linejoin="null" id="svg_13" y2="274.5" x2="555.500004" y1="272.5" x1="15.5" stroke-width="8" fill="none"/>
+ </g>
+</svg>
