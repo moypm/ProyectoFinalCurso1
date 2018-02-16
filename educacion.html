@@ -2,9 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
     <title>Página personal de la parte educativa</title>
   </head>
   <body>
+    <!-- Cabecera de la página donde muestra el logo y datos personales que se repirten en las tres página del trabajo-->
       <header>
           <h1>
               <img src="images/logo.png" alt="logo" width="300" height="150">
@@ -17,6 +19,7 @@
           ___________________________________________________________________________________________________________
       </header>
       <br>
+      <!-- Barra de navegación donde muestr a las opciones a las página que se puede acceder -->
       <navbar>
           <a href="index.html">Inicio</a>
           |
@@ -27,73 +30,99 @@
       <br>
       <br>
       <br>
-      <h2>Educación</h2>
-      <table  border="1", cellpadding="10", cellspacing="0">
-          <thead>
-              <th><strong>Año</strong></th>
-              <th><strong>Institución</strong></th>
-              <th><strong>Lugar</strong></th>
-              <th><strong>¿Culminó?</strong></th>
-          </thead>
-          <tbody>
-              <tr>
-                  <td>1988</td>
-                  <td>Secundaria Técnica #81</td>
-                  <td>Puerto Vallarta, Jal.</td>
-                  <td>Si</td>
-              </tr>
-              <tr>
-                  <td>1991</td>
-                  <td>CBTIS #68</td>
-                  <td>Puerto Vallarta, Jal.</td>
-                  <td>Si</td>
-              </tr>
-              <tr>
-                  <td>1996</td>
-                  <td>Tecnológico de Colima</td>
-                  <td>Villa de Alvarez, Col.</td>
-                  <td>Si</td>
-              </tr>
-              <tr>
-                  <td>2001</td>
-                  <td>UNIVA</td>
-                  <td>Puerto Vallarta, Jal.</td>
-                  <td>Si</td>
-              </tr>
-          </tbody>
-      </table>
-      <br>
-      <br>
-      <h2>Agregar Estudios</h2>
-      <form action="">
-          <label for="anio"><strong>Año:</strong> </label>
-          <select name="anio">
-              <option value="anio">2018</option>
-              <option value="anio">2017</option>
-              <option value="anio">2016</option>
-              <option value="anio">2015</option>
-              <option value="anio">2014</option>
-              <option value="anio">2013</option>
-              <option value="anio">2012</option>
-              <option value="anio">2011</option>
-          </select>
-          <br>
-          <br>
-          <label for="instituto"><strong>Instituto:</strong> </label>
-          <input type="text" name="instituto" placeholder="Ej: Universidad NextU" required>
-          <br>
-          <br>
-          <label for="lugar"><strong>Lugar:</strong> </label>
-          <textarea name="lugar" rows="2" cols="52"></textarea>
-          <br>
-          <br>
-          <label for="culmina"><strong>¿Culminó?</strong> </label>
-          <input type="radio" name="culmina">Si
-          <input type="radio" name="culmina">No
-          <br>
-          <br>
-          <input type="submit" value="Enviar">
-      </form>
+      <!-- Empieza la parte de la sección que muestra las artículos, en este caso la tabla de datos educativos -->
+      <section>
+          <h2>Educación</h2>
+
+          <!-- parte de la sección de la tabla de escuelas cursadas -->
+          <article>
+              <table  border="1", cellpadding="10", cellspacing="0">
+
+                  <thead>
+                      <th><strong>Año</strong></th>
+                      <th><strong>Institución</strong></th>
+                      <th><strong>Lugar</strong></th>
+                      <th><strong>¿Culminó?</strong></th>
+                  </thead>
+
+                  <tbody>
+
+                      <tr>
+                          <td>1988</td>
+                          <td>Secundaria Técnica #81</td>
+                          <td>Puerto Vallarta, Jal.</td>
+                          <td>Si</td>
+                      </tr>
+                      <tr>
+                          <td>1991</td>
+                          <td>CBTIS #68</td>
+                          <td>Puerto Vallarta, Jal.</td>
+                          <td>Si</td>
+                      </tr>
+                      <tr>
+                          <td>1996</td>
+                          <td>Tecnológico de Colima</td>
+                          <td>Villa de Alvarez, Col.</td>
+                          <td>Si</td>
+                      </tr>
+                      <tr>
+                          <td>2001</td>
+                          <td>UNIVA</td>
+                          <td>Puerto Vallarta, Jal.</td>
+                          <td>Si</td>
+                      </tr>
+
+                  </tbody>
+              </table>
+
+            </article>
+              <!-- parte de la sección del formulario -->
+              <article class="">
+                  <h2>Agregar Estudios</h2>
+
+                  <!--formulario de seleccion de opciones del año -->
+                  <form action="">
+                      <label for="anio"><strong>Año:</strong> </label>
+
+                      <select name="anio">
+                          <option value="anio">2018</option>
+                          <option value="anio">2017</option>
+                          <option value="anio">2016</option>
+                          <option value="anio">2015</option>
+                          <option value="anio">2014</option>
+                          <option value="anio">2013</option>
+                          <option value="anio">2012</option>
+                          <option value="anio">2011</option>
+                      </select>
+                      <br>
+                      <br>
+
+                      <!--formulario para in input tipo texto y validado para captura de instituto -->
+                      <label for="instituto"><strong>Instituto:</strong> </label>
+                      <input type="text" name="instituto" placeholder="Ej: Universidad NextU" required>
+                      <br>
+                      <br>
+
+                      <!--formulario para in area de texto captura de lugar -->
+                      <label for="lugar"><strong>Lugar:</strong> </label>
+                      <textarea name="lugar" rows="2" cols="52"></textarea>
+                      <br>
+                      <br>
+
+                      <!--formulario tipo radio button opcines para la pregunta culminó -->
+                      <label for="culmina"><strong>¿Culminó?</strong> </label>
+                      <input type="radio" name="culmina">Si
+                      <input type="radio" name="culmina">No
+                      <br>
+                      <br>
+
+                      <!--formulario para el input tipo submit de envio de formulario -->
+                      <input type="submit" value="Enviar">
+
+                  </form>
+          </article>
+      </section>
+      <!-- Empieza la parte del pie de pa´gina que se repite en todas las página del trabajo -->
       <footer>
           <p>
               ___________________________________________________________________________________________________________
